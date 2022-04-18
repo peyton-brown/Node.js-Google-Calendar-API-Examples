@@ -41,7 +41,7 @@ const getEvents = async (summary) => {
         let items = response['data']['items'];
         return items;
     } catch (error) {
-        console.log(`Error at getEvents2 --> ${error}`);
+        console.log(`Error at getEvents --> ${error}`);
         return 0;
     }
 };
