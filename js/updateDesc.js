@@ -26,7 +26,7 @@ const auth = new google.auth.JWT(
 
 
 
-// Event ID can be changed here. You can get this value from running "event-id.js".
+// Event ID can be changed here. You can get this value from running "get-event-id.js".
 const eventId = "123";
 
 
